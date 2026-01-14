@@ -82,10 +82,9 @@
   #header-section {
     flex-direction: column;
     padding: 0 20px;
+    margin: 0px;
     gap: 0;
   }
-
-  
 
   #header-title {
     font-size: 2rem;
@@ -94,24 +93,36 @@
     justify-items: center;
   }
 
- .text-p {
-  font-size:1rem;
-  font-weight: 400;
-  text-align: center;
-  
-}
-.btn-primary{
+  .text-p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .btn-primary {
     margin: 0 90px;
-}
+  }
 
-#header-img img {
-  
-  max-height: 250px;
-  width: 100%;
+  #header-img img {
+    max-height: 250px;
+    width: 100%;
+  }
 }
-
-}
-
 
 /* Medium Device: Tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  #header-section {
+    /* flex-direction: column; */
+    padding: 0 20px;
+    margin: 0px;
+    gap: 0;
+  }
 
+  #header-title {
+    font-size: 2.2rem;
+  }
+
+  .text-p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
