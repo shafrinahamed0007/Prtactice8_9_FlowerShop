@@ -55,6 +55,17 @@
   color: rgba(39, 39, 39, 0.6);
 }
 
+/* Cart Title */
+
+.cart-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(39,39,39,1);
+    text-align: center;
+    text-decoration: underline;
+
+}
+
 /* Header Style */
 
 .header {
@@ -62,7 +73,9 @@
 }
 
 #header-section,
-.features-flower-section {
+.features-flower-section,
+.features-flower-card-section
+{
   max-width: 1200px;
   margin: 0px auto;
   display: flex;
@@ -103,6 +116,26 @@
 
 .features-flower-card-section{
     margin-top: 48px;
+}
+
+#cart-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    
+    
+   
+    
+}
+.cart{
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    max-width: 250px;
+
+}
+
+.cart img{
+    width: 90%;
+    margin:20px;
+    
 }
 
 /* Media Responsive */
