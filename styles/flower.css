@@ -73,7 +73,7 @@
 
 #header-section,
 .features-flower-section,
-.features-flower-card-section {
+.features-flower-cart-section {
   max-width: 1200px;
   margin: 0px auto;
   display: flex;
@@ -111,7 +111,7 @@
   margin-top: -30px;
 }
 
-.features-flower-card-section {
+.features-flower-cart-section {
   margin-top: 48px;
 }
 
@@ -136,7 +136,7 @@
   border-top-left-radius: 300px;
   border-top-right-radius: 300px;
   max-width: 250px;
-  /* padding: 20px; */
+
   padding-left: 30px;
   padding-top: 30px;
   padding-right: 30px;
@@ -184,10 +184,19 @@
     width: 100%;
   }
 
-  /* Our Features Flowers */
-
   .features-flower-content {
     padding: 0 1px;
+  }
+
+  /* Our Features Flowers */
+  .features-flower-cart {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .features-flower-cart {
+    padding: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -196,7 +205,7 @@
   /* Header Section */
   #header-section {
     /* flex-direction: column; */
-    padding: 0 120px;
+    padding: 0 60px;
     margin: 0px;
     gap: 0;
   }
@@ -206,12 +215,17 @@
   }
 
   .text-p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
   }
 
   /* Our Features Flowers */
   .features-flower-content {
     padding: 0 20px;
+  }
+
+  .features-flower-cart {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 }
