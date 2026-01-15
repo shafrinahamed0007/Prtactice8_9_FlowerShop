@@ -157,6 +157,7 @@
   margin: 0 auto;
   justify-content: center;
   width: 55%;
+  border-radius: 8px;
 }
 
 .customer-service-cart {
@@ -167,6 +168,14 @@
   margin-bottom: 20px;
 }
 
+.service-cart {
+  align-items: center;
+  gap: 100px;
+}
+
+.service-cart img {
+  margin: 0 40px;
+}
 /* Media Responsive */
 
 /* Mobile Device */
@@ -217,6 +226,16 @@
     padding: 20px;
     margin-left: 20px;
   }
+
+  /* Customer Service */
+
+  .customer-service-section {
+    width: 100%;
+  }
+  .customer-service-cart {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Medium Device: Tablet */
@@ -244,7 +263,14 @@
   }
 
   .features-flower-cart {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 20px;
+    padding: 0;
+  }
+
+  /* Customer Service Section */
+  .customer-service-section {
+    width: 100%;
+    gap: 40px;
   }
 }
