@@ -73,7 +73,8 @@
 
 #header-section,
 .features-flower-section,
-.features-flower-cart-section {
+.features-flower-cart-section,
+.customer-service-section {
   max-width: 1200px;
   margin: 0px auto;
   display: flex;
@@ -149,6 +150,23 @@
   margin: 0 auto;
 }
 
+/* Customer Service Section */
+
+.customer-service-section {
+  background-color: rgba(39, 39, 39, 0.05);
+  margin: 0 auto;
+  justify-content: center;
+  width: 55%;
+}
+
+.customer-service-cart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 /* Media Responsive */
 
 /* Mobile Device */
@@ -156,7 +174,8 @@
 @media screen and (max-width: 576px) {
   /* Heading Section */
   #header-section,
-  .features-flower-section {
+  .features-flower-section,
+  .customer-service {
     flex-direction: column;
     padding: 0 20px;
     margin: 0px;
