@@ -74,7 +74,8 @@
 #header-section,
 .features-flower-section,
 .features-flower-cart-section,
-.customer-service-section {
+.customer-service-section,
+.hot-deal {
   max-width: 1200px;
   margin: 0px auto;
   display: flex;
@@ -84,11 +85,15 @@
   justify-items: center;
 }
 
+.features-flower-section {
+  width: 594px;
+}
+
 #header-content {
   gap: 32px;
 }
 
-#header-title {
+.header-title {
   font-size: 2.8rem;
   font-weight: 800;
 }
@@ -104,7 +109,7 @@
 .features-flower-cart {
   justify-items: center;
   align-items: center;
- 
+
   width: 100%;
 }
 
@@ -159,7 +164,7 @@
   justify-content: center;
   width: 100%;
   border-radius: 8px;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .customer-service-cart {
@@ -178,6 +183,20 @@
 .service-cart img {
   margin: 0 40px;
 }
+
+/* Hot Deals Section */
+
+.hot-deal-section {
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 130px;
+  
+}
+
+
+#off {
+  color: #e55473;
+}
+
 /* Media Responsive */
 
 /* Mobile Device */
