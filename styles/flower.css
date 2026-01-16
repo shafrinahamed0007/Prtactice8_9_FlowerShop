@@ -228,13 +228,38 @@
 .instagram-img {
   display: flex;
   gap: 24px;
-  margin-top:48px;
+  margin-top: 48px;
 
   padding-left: 340px;
 }
 
 .instagram-img img {
   width: 200px;
+}
+
+/* Footer Section */
+.get-latest-deals {
+  background: url("/Flower\ Asset/Rectangle 9.png");
+  width: 75%;
+  margin: 0 auto;
+  height: 300px;
+  border-radius: 8px;
+  margin-top: 128px;
+  padding-top: 150px;
+}
+
+.get-deal-subscription {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+}
+
+.get-deal-subscription input {
+  width: 700px;
+  height: 55px;
+  border: none;
+  border-radius: 8px;
 }
 
 /* Media Responsive */
