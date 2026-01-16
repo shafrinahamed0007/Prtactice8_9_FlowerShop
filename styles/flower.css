@@ -189,9 +189,22 @@
 .hot-deal-section {
   background-color: rgba(229, 84, 115, 0.05);
   margin-top: 130px;
-  
+  width: 100%;
 }
 
+#hot-deal-content {
+  width: 600px;
+  justify-items: center;
+}
+
+#hot-deal-content p {
+  text-align: center;
+}
+
+.hot-deal-img img {
+  width: 100%;
+  margin-top: 100px;
+}
 
 #off {
   color: #e55473;
