@@ -321,6 +321,28 @@ footer {
   #header-img img {
     margin-top: 0;
   }
+
+  .features-flower-content,
+  .features-flower-cart {
+   
+    justify-items: start;
+    background-color: green;
+    
+    padding: 5px;
+    width: 100%;
+    
+  }
+
+  .text-h{
+    font-size: 1.8rem;
+  }
+
+  #features-flower-content-p{
+    text-align: center;
+    margin-top: 0;
+
+  }
+  
 }
 
 /* Medium Device: Tablet */
