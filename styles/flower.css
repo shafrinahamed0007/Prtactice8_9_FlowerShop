@@ -305,7 +305,8 @@ footer {
     flex-direction: column;
     max-width: 100%;
     padding: 5%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    height: 1190px;
   }
 
   #header-content {
@@ -320,13 +321,12 @@ footer {
 
   #header-img img{
     margin-top: 0;
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 0;
-
   }
+
+  
 }
 
 /* Medium Device: Tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  
 }
