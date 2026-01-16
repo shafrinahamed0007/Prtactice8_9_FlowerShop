@@ -52,6 +52,7 @@
   font-size: 1.12rem;
   font-weight: 400;
   line-height: 30px;
+
   color: rgba(39, 39, 39, 0.6);
 }
 
@@ -208,6 +209,32 @@
 
 #off {
   color: #e55473;
+}
+
+/* Instagram Section */
+.instagram-section {
+  margin-top: 130px;
+}
+
+.instagram-content {
+  width: 50%;
+
+  margin: 0 auto;
+}
+.instagram-content p {
+  text-align: center;
+}
+
+.instagram-img {
+  display: flex;
+  gap: 24px;
+  margin-top:48px;
+
+  padding-left: 340px;
+}
+
+.instagram-img img {
+  width: 200px;
 }
 
 /* Media Responsive */
