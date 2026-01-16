@@ -343,7 +343,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 40px;
-    
+  }
+
+  .customer-service-section {
+    justify-content: start;
+    margin-top: 10px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .customer-service-cart {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -363,9 +373,7 @@ footer {
   }
 
   .features-flower-cart {
-  
-   gap: 10px;
-   margin: 0 20px;
-    
+    gap: 10px;
+    margin: 0 20px;
   }
 }
