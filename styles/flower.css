@@ -328,5 +328,14 @@ footer {
 
 /* Medium Device: Tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  
+  .display-none{
+    display: none;
+  }
+
+  #header-section{
+    max-width: 100%;
+    padding:40px;
+    gap: 0;
+    height:465px;
+  }
 }
