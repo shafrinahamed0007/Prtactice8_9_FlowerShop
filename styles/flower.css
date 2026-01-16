@@ -237,15 +237,14 @@
   width: 200px;
 }
 
-/* Footer Section */
 .get-latest-deals {
   background: url("/Flower\ Asset/Rectangle 9.png");
   width: 75%;
   margin: 0 auto;
-  height: 300px;
+  height: 290px;
   border-radius: 8px;
   margin-top: 128px;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 .get-deal-subscription {
@@ -260,6 +259,32 @@
   height: 55px;
   border: none;
   border-radius: 8px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #111010;
+  margin-top: 130px;
+  padding: 150px;
+}
+
+.footer-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  color: white;
+  text-align: center;
+}
+
+#flower {
+  color: #e55473;
+}
+
+#shop {
+  color: white;
 }
 
 /* Media Responsive */
