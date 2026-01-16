@@ -292,96 +292,41 @@ footer {
 /* Mobile Device */
 
 @media screen and (max-width: 576px) {
-  /* Heading Section */
-  #header-section,
-  .features-flower-section,
-  .customer-service {
-    flex-direction: column;
-    padding: 0 20px;
-    margin: 0px;
-    gap: 0;
-  }
-
-  #header-title {
-    font-size: 2rem;
-    font-weight: 800;
-    text-align: center;
-    justify-items: center;
+  .display-none {
+    display: none;
+    padding: 10px;
   }
 
   .text-p {
-    font-size: 1rem;
-    font-weight: 400;
     text-align: center;
   }
-  .btn-primary {
-    margin: 0 90px;
+
+  #header-section {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 5%;
+    margin: 0 auto;
   }
 
-  #header-img img {
-    max-height: 250px;
+  #header-content {
     width: 100%;
+    justify-items: center;
+   
   }
 
-  .features-flower-content {
-    padding: 0 1px;
+  .header-title {
+    text-align: center;
   }
 
-  /* Our Features Flowers */
-  .features-flower-cart {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
+  #header-img img{
+    margin-top: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 0;
 
-  .features-flower-cart {
-    padding: 20px;
-    margin-left: 20px;
-  }
-
-  /* Customer Service */
-
-  .customer-service-section {
-    width: 100%;
-  }
-  .customer-service-cart {
-    display: grid;
-    grid-template-columns: 1fr;
   }
 }
 
 /* Medium Device: Tablet */
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  /* Header Section */
-  #header-section {
-    /* flex-direction: column; */
-    padding: 0 60px;
-    margin: 0px;
-    gap: 0;
-  }
-
-  #header-title {
-    font-size: 2.2rem;
-  }
-
-  .text-p {
-    font-size: 1.2rem;
-    font-weight: 400;
-  }
-
-  /* Our Features Flowers */
-  .features-flower-content {
-    padding: 0 20px;
-  }
-
-  .features-flower-cart {
-    /* grid-template-columns: repeat(2, 1fr); */
-    gap: 20px;
-    padding: 0;
-  }
-
-  /* Customer Service Section */
-  .customer-service-section {
-    width: 100%;
-    gap: 40px;
-  }
+@media screen and (min-width: 577px) and (max-width: 992px) {
 }
